@@ -23,8 +23,6 @@
 
   }
 
-  
-
   .project h3 {
     margin-top: 10px;
     color: #b7c6eb;
@@ -78,6 +76,20 @@
 
   @media only screen and (max-width: 1100px){
 
+    .project h1 {
+      font-size: 40px;
+    }
 
+    .project h3 {
+      font-size: 24px;
+      word-break: break-word;
+
+    }
+
+    .project p{
+      font-size: 18px;
+      word-break: break-word;
+
+    }
 
   }

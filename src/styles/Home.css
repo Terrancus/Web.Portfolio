@@ -220,6 +220,10 @@
     }
 
 
+    .Summary p{
+      word-break: break-word;
+      font-size: 18px;
+    }
 
     .skills .list {
       margin: 0px;

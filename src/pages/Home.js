@@ -29,7 +29,7 @@ function Home() {
           <img src={Propic} alt="Profile Picture" />
         </div>
         <div>
-          <h3> Terrance HO</h3>          
+          <h3>Terrance HO</h3>          
         </div>
 
         <div className="prompt">
