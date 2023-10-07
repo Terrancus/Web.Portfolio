@@ -11,9 +11,9 @@
 
 }
 
-.projects h1 {  /* My Personal Projects */
+.projects .PageTitle h1 {  /* My Personal Projects */
   color: #3e5692;
-  height: 20px;
+  height: 60px;
   font-size: 60px;
   text-shadow: 3px 3px rgb(162, 186, 238);
 
@@ -75,13 +75,20 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .projectList {
     grid-template-columns: 1fr;
   }
 }
 
 @media only screen and (max-width: 800px) {
+
+  .projects .PageTitle h1 {  /* My Personal Projects */
+    color: #3e5692;
+    height: 40px;
+    font-size: 40px;
+  }
+
   .projectList {
     width: 100%;
   }
@@ -89,4 +96,6 @@
     width: 300px;
     height: 300px;
   }
+
+
 }

@@ -28,8 +28,10 @@ function Home() {
         <div className="propic">
           <img src={Propic} alt="Profile Picture" />
         </div>
-        
-        <h3> Terrance HO</h3>
+        <div>
+          <h3> Terrance HO</h3>          
+        </div>
+
         <div className="prompt">
           <p>
             A self-motivated content creator 

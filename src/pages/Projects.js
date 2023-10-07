@@ -7,7 +7,7 @@ import "../styles/Projects.css"
 function Projects() {
   return (
     <div className="projects">
-      <div >
+      <div className="PageTitle">
         <h1>My Personal Projects</h1>
       </div>
       <div className="projectList">
