@@ -17,9 +17,9 @@ function Navbar() {
             </button>
         </div>
         <div className="links">
-            <Link to="/Web.Portfolio/" className="link"> Home </Link>
-            <Link to="/Web.Portfolio//projects" className="link"> Projects </Link>
-            <Link to="/Web.Portfolio//experience" className="link"> CV timeline</Link>
+            <Link to="/Web.Portfolio/" className="link"> Home Page </Link>
+            <Link to="/Web.Portfolio/projects" className="link"> Projects </Link>
+            <Link to="/Web.Portfolio/experience" className="link"> CV timeline</Link>
         </div>
     </div>
   )
