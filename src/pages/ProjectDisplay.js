@@ -1,9 +1,6 @@
 import React from 'react'
 import {useParams} from "react-router-dom"
 import {ProjectList} from "../helpers/ProjectList"
-import GitHubIcon from '@material-ui/icons/GitHub'
-//import { Dimensions } from "react-native";
-import {useRef} from 'react';
 import { useState, useEffect } from 'react';
 
 import {Link, useLocation} from "react-router-dom";
@@ -47,7 +44,7 @@ function ReadLink(link){
 
   if (link != null){
 
-    if(link != "/")
+    if(link !== "/")
       return (
         <div>
         <p>Link to project: <a href={link} target="_blank" rel="noopener noreferrer">{link}</a>
