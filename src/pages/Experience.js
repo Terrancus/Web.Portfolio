@@ -91,7 +91,7 @@ function Experience() {
             <li> &#40;2020&#41; Theater play writing - 「擂台上的畫面」</li>
             <li> &#40;2020 - 22&#41; 3D modeling - Blender practices</li>
             <li> &#40;2023&#41; Game dev - Roothless &#40;Unity 2D&#41;</li>
-            <li> &#40;2023 - &#41; Conlang - RhiuBu, and artificial language construction project</li>
+            <li> &#40;2023 - &#41; Conlang - RhiuBu, a constructed language</li>
             <li> &#40;2023 - &#41; Game dev - Art of Aether</li>
             <li> &#40;2023 - &#41; Web dev - My personal website</li>
           </ul>  
