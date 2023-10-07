@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Web.Portfolio/static/css/main.8c756087.css",
-    "main.js": "/Web.Portfolio/static/js/main.88eb7f01.js",
+    "main.js": "/Web.Portfolio/static/js/main.d27f29eb.js",
     "static/js/787.1ed0c42c.chunk.js": "/Web.Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/PacmanGameplay.png": "/Web.Portfolio/static/media/PacmanGameplay.c76051ba82085eea68b3.png",
+    "static/media/PacmanGameplay.png": "/Web.Portfolio/static/media/PacmanGameplay.51ecf274b0b50925d319.png",
     "static/media/RoothlessMain.png": "/Web.Portfolio/static/media/RoothlessMain.72fb33a36b150b301dd2.png",
     "static/media/Propic.jpg": "/Web.Portfolio/static/media/Propic.27579cb892f9d2b38b54.jpg",
     "static/media/RoothlessImage.png": "/Web.Portfolio/static/media/RoothlessImage.e7b3f93b8a87d500ee46.png",
@@ -18,11 +18,11 @@
     "static/media/HTML5.png": "/Web.Portfolio/static/media/HTML5.4d0a03562b8ab90ef3df.png",
     "index.html": "/Web.Portfolio/index.html",
     "main.8c756087.css.map": "/Web.Portfolio/static/css/main.8c756087.css.map",
-    "main.88eb7f01.js.map": "/Web.Portfolio/static/js/main.88eb7f01.js.map",
+    "main.d27f29eb.js.map": "/Web.Portfolio/static/js/main.d27f29eb.js.map",
     "787.1ed0c42c.chunk.js.map": "/Web.Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c756087.css",
-    "static/js/main.88eb7f01.js"
+    "static/js/main.d27f29eb.js"
   ]
 }
