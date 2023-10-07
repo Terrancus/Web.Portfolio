@@ -5,7 +5,6 @@ import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 import ProjIcon from "@material-ui/icons/Gamepad"
 import "../styles/Experience.css";
-import { cyan } from '@material-ui/core/colors';
 
 function Experience() {
   return (

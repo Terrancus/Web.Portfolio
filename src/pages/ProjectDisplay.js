@@ -56,7 +56,7 @@ function ReadLink(link){
 
     return(<div>
       <span>
-        Link to project: <Link to="/" className="link"> Home page </Link>
+        Link to project: <Link to="/Web.Portfolio/" className="link"> Home page </Link>
       </span>
       </div>);
 

@@ -1,4 +1,3 @@
-import Proj1 from "../assets/Proj1.png";
 import RoothlessImage from "../assets/RoothlessImage.png"
 import RoothlessMain from "../assets/RoothlessMain.png"
 import PacmanGameplay from "../assets/PacmanGameplay.png"
