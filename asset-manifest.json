@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Web.Portfolio/static/css/main.e73276f7.css",
+    "main.js": "/Web.Portfolio/static/js/main.94574112.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Web.Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/PacmanGameplay.png": "/Web.Portfolio/static/media/PacmanGameplay.c76051ba82085eea68b3.png",
+    "static/media/RoothlessMain.png": "/Web.Portfolio/static/media/RoothlessMain.72fb33a36b150b301dd2.png",
+    "static/media/Propic.jpg": "/Web.Portfolio/static/media/Propic.27579cb892f9d2b38b54.jpg",
+    "static/media/RoothlessImage.png": "/Web.Portfolio/static/media/RoothlessImage.e7b3f93b8a87d500ee46.png",
+    "static/media/PacmanSummary.png": "/Web.Portfolio/static/media/PacmanSummary.683813f45119a16ddce8.png",
+    "static/media/Proj1.png": "/Web.Portfolio/static/media/Proj1.dea88f67c4377c05ee82.png",
+    "static/media/BlenderMontage.png": "/Web.Portfolio/static/media/BlenderMontage.ab999d37f206896a6bd6.png",
+    "static/media/HiuBuFront.png": "/Web.Portfolio/static/media/HiuBuFront.70d026d8d2dd64802f37.png",
+    "static/media/PortfolioWeb.png": "/Web.Portfolio/static/media/PortfolioWeb.5f921fe71c9fa94bfe8b.png",
+    "static/media/HiuBu.png": "/Web.Portfolio/static/media/HiuBu.8d8b22bdd49aa4dcf4b9.png",
+    "static/media/Script1.png": "/Web.Portfolio/static/media/Script1.a25ca16b320a6a0b5db0.png",
+    "static/media/UE.png": "/Web.Portfolio/static/media/UE.ca43861ad5c56fc295be.png",
+    "static/media/ReactJS.png": "/Web.Portfolio/static/media/ReactJS.428839d4924b447d4d50.png",
+    "static/media/HTML5.png": "/Web.Portfolio/static/media/HTML5.4d0a03562b8ab90ef3df.png",
+    "index.html": "/Web.Portfolio/index.html",
+    "main.e73276f7.css.map": "/Web.Portfolio/static/css/main.e73276f7.css.map",
+    "main.94574112.js.map": "/Web.Portfolio/static/js/main.94574112.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Web.Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e73276f7.css",
+    "static/js/main.94574112.js"
+  ]
+}
