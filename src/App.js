@@ -6,11 +6,14 @@ import Experience from './pages/Experience';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProjectDisplay from './pages/ProjectDisplay';
+import ScrollToTop from "./helpers/ScrollToTop";
+
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop></ScrollToTop>
         <Navbar />
         <Routes>
           <Route path="/Web.Portfolio/" element={<Home />} />

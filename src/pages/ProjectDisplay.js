@@ -10,35 +10,52 @@ import {Link, useLocation} from "react-router-dom";
 
 import "../styles/ProjectDisplay.css"
 
-function ImageSize(){
-    const [windowSize, setWindowSize] = useState([
-        window.innerWidth,
-        //window.innerHeight,
-      ]);
+function ImageReturn(normal, small){
+
+/* */
+  const [windowSize, setWindowSize] = useState([
+      window.innerWidth,
+      //window.innerHeight,
+    ]);
 
 
-      useEffect(() => {
-        const handleWindowResize = () => {
-          setWindowSize([window.innerWidth, window.innerHeight]);
-        };
-    
-        window.addEventListener('resize', handleWindowResize);
-    
-        return () => {
-          window.removeEventListener('resize', handleWindowResize);
-        };
-      }, []);
+    useEffect(() => {
+      const handleWindowResize = () => {
+        setWindowSize([window.innerWidth, window.innerHeight]);
+      };
+  
+      window.addEventListener('resize', handleWindowResize);
+  
+      return () => {
+        window.removeEventListener('resize', handleWindowResize);
+      };
+    }, []);
 
 
-    var imageSize;
-    if (windowSize[0] < 1440)
-        imageSize = windowSize[0] * 0.8;
-    else
-        imageSize = 1440*0.8;
+  var imageSize;
+  //var image = normal;
+  var image;
 
-    return imageSize;
+  if (windowSize[0] > 1440) {
+    imageSize = 1440*0.8;
+    image = normal;
+  }
+  else if(windowSize[0] > 600) {
+    imageSize = windowSize[0] * 0.8; 
+    image = normal;
+  
+  }
+  else {
+    imageSize = windowSize[0] * 0.8; 
+    image = small;
+  }
+
+  return (
+    <img src={image}  alt="Project showcase"  style={{  width: imageSize, }}/>
+    );;
 
 }
+
 
 function ReadLink(link){
 
@@ -68,7 +85,10 @@ function ProjectDisplay() {
     const {id} = useParams();
     const project = ProjectList[id];
     return <div className="project">
-        <img src={project.image}   style={{  width: ImageSize(), }}/> 
+        <div>
+          {ImageReturn(project.image, project.imageSmall)}
+        </div>
+
         <h1> {project.name} </h1>
         <h3> {project.desc} </h3>
         <p>{ReadLink(project.link)}</p>
@@ -77,3 +97,12 @@ function ProjectDisplay() {
 }
 
 export default ProjectDisplay
+
+
+/*
+        <img 
+        src={project.image} 
+        srcset="{project.imageSmall} 400w"
+
+        alt="Project showcase"  style={{  width: ImageSize(), }}/>
+*/
