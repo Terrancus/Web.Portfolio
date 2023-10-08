@@ -1,28 +1,33 @@
 {
   "files": {
     "main.css": "/Web.Portfolio/static/css/main.8c756087.css",
-    "main.js": "/Web.Portfolio/static/js/main.d27f29eb.js",
+    "main.js": "/Web.Portfolio/static/js/main.87f5f477.js",
     "static/js/787.1ed0c42c.chunk.js": "/Web.Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/PacmanGameplay.png": "/Web.Portfolio/static/media/PacmanGameplay.51ecf274b0b50925d319.png",
-    "static/media/RoothlessMain.png": "/Web.Portfolio/static/media/RoothlessMain.72fb33a36b150b301dd2.png",
-    "static/media/Propic.jpg": "/Web.Portfolio/static/media/Propic.27579cb892f9d2b38b54.jpg",
     "static/media/RoothlessImage.png": "/Web.Portfolio/static/media/RoothlessImage.e7b3f93b8a87d500ee46.png",
     "static/media/PacmanSummary.png": "/Web.Portfolio/static/media/PacmanSummary.683813f45119a16ddce8.png",
     "static/media/BlenderMontage.png": "/Web.Portfolio/static/media/BlenderMontage.ab999d37f206896a6bd6.png",
-    "static/media/HiuBuFront.png": "/Web.Portfolio/static/media/HiuBuFront.70d026d8d2dd64802f37.png",
+    "static/media/RoothlessMainCover.png": "/Web.Portfolio/static/media/RoothlessMainCover.2f224ca6e57af517c8dd.png",
+    "static/media/RoothlessImageSmall.png": "/Web.Portfolio/static/media/RoothlessImageSmall.ae6a9ad95e15b8a57846.png",
     "static/media/PortfolioWeb.png": "/Web.Portfolio/static/media/PortfolioWeb.5f921fe71c9fa94bfe8b.png",
+    "static/media/PacmanGameplayCover.png": "/Web.Portfolio/static/media/PacmanGameplayCover.c6745493842a33548a1a.png",
+    "static/media/PacmanSummarySmall.png": "/Web.Portfolio/static/media/PacmanSummarySmall.e5d27f10171c6bf804fd.png",
     "static/media/HiuBu.png": "/Web.Portfolio/static/media/HiuBu.8d8b22bdd49aa4dcf4b9.png",
+    "static/media/HiuBuFrontCover.png": "/Web.Portfolio/static/media/HiuBuFrontCover.935d7a8e3f3332ca6b14.png",
+    "static/media/BlenderMontageCover.png": "/Web.Portfolio/static/media/BlenderMontageCover.72f8c971a9a13fbcf724.png",
     "static/media/Script1.png": "/Web.Portfolio/static/media/Script1.a25ca16b320a6a0b5db0.png",
     "static/media/UE.png": "/Web.Portfolio/static/media/UE.ca43861ad5c56fc295be.png",
+    "static/media/PortfolioWebCover.png": "/Web.Portfolio/static/media/PortfolioWebCover.0dfc1643fd2c41146da6.png",
+    "static/media/Script1Cover.png": "/Web.Portfolio/static/media/Script1Cover.3a4f9c6effc4b1debc30.png",
+    "static/media/Propic.jpg": "/Web.Portfolio/static/media/Propic.a879380d8ae2f2cf1823.jpg",
     "static/media/ReactJS.png": "/Web.Portfolio/static/media/ReactJS.428839d4924b447d4d50.png",
     "static/media/HTML5.png": "/Web.Portfolio/static/media/HTML5.4d0a03562b8ab90ef3df.png",
     "index.html": "/Web.Portfolio/index.html",
     "main.8c756087.css.map": "/Web.Portfolio/static/css/main.8c756087.css.map",
-    "main.d27f29eb.js.map": "/Web.Portfolio/static/js/main.d27f29eb.js.map",
+    "main.87f5f477.js.map": "/Web.Portfolio/static/js/main.87f5f477.js.map",
     "787.1ed0c42c.chunk.js.map": "/Web.Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c756087.css",
-    "static/js/main.d27f29eb.js"
+    "static/js/main.87f5f477.js"
   ]
 }
