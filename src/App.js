@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <ScrollToTop></ScrollToTop>
+        <ScrollToTop/>
         <Navbar />
         <Routes>
           <Route path="/Web.Portfolio/" element={<Home />} />

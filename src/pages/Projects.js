@@ -19,6 +19,4 @@ function Projects() {
   )
 }
 
-//https://www.youtube.com/watch?v=BXitZGoirNI
-
 export default Projects

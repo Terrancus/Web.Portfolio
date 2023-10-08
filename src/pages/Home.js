@@ -4,6 +4,8 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import "../styles/Home.css";
 import Propic from "../assets/Propic.jpg";
+import PropicSmall from "../assets/PropicSmall.jpg"
+
 import cplusplus from "../assets/cplusplus.png"
 import cSharp from "../assets/c-sharp.png"
 import js from '../assets/js.png';
@@ -18,7 +20,38 @@ import cssIcon from "../assets/logos/CSS.png"
 import reactjsIcon from "../assets/logos/ReactJS.png"
 import npmIcon from "../assets/logos/npm.png"
 
+import {useState, useEffect } from 'react';
 
+function PropicReturn(){
+
+  /* */
+    const [windowSize, setWindowSize] = useState([
+        window.innerWidth,
+        //window.innerHeight,
+      ]);
+
+      useEffect(() => {
+        const handleWindowResize = () => {
+          setWindowSize([window.innerWidth, window.innerHeight]);
+        };
+    
+        window.addEventListener('resize', handleWindowResize);
+    
+        return () => {
+          window.removeEventListener('resize', handleWindowResize);
+        };
+      }, []);
+      
+  
+    if(windowSize[0] > 600) {
+      
+      return Propic;
+    
+    } 
+    else
+      return PropicSmall;
+  
+  }
 
 function Home() {
   return (
@@ -26,7 +59,7 @@ function Home() {
       <div className="about">
 
         <div className="propic">
-          <img src={Propic} alt="Profile Picture" />
+          <img src={PropicReturn()} alt="Profile Picture" />
         </div>
         <div>
           <h3>Terrance HO</h3>          

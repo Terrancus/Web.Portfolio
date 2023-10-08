@@ -1,9 +1,9 @@
 import React from 'react'
 import {useParams} from "react-router-dom"
 import {ProjectList} from "../helpers/ProjectList"
-import { useState, useEffect } from 'react';
+import {useState, useEffect } from 'react';
 
-import {Link, useLocation} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 
 
