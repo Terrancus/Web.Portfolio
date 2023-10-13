@@ -69,12 +69,12 @@ function Home() {
           <p>
             A self-motivated content creator 
           </p>
-          <h4>Contact:</h4>
+          <h4>Contact me:</h4>
           <div className="socialMedia">
             <a href="https://www.linkedin.com/in/terrance-ho-95a11a281" target="_blank" rel="noopener noreferrer">
               <LinkedInIcon />
             </a>
-            <EmailIcon onClick={() => window.location = 'mailto:terrance.of.h.k@gmail.com'}/>
+            <EmailIcon onClick={() => window.location = 'mailto:terrance.ho.work@gmail.com'}/>
             <a href="https://github.com/Terrancus" target="_blank" rel="noopener noreferrer">
               <GitHub  />
             </a>
@@ -117,7 +117,7 @@ function Home() {
               <ul className="skillList">
                 <li>
                   <div className="skillIcon"> 
-                    <img src={BlenderIcon} /> 
+                    <img src={BlenderIcon} alt="Icon"/> 
                   </div>
                   <div className="skillName">
                     Blender
@@ -126,7 +126,7 @@ function Home() {
                 </li>
                 <li>
                   <div className="skillIcon"> 
-                    <img src={UnityIcon} /> 
+                    <img src={UnityIcon} alt="Icon"/> 
                   </div>
                   <div className="skillName">
                     Unity
@@ -135,7 +135,7 @@ function Home() {
                 </li>
                 <li>
                   <div className="skillIcon"> 
-                    <img src={UEIcon} /> 
+                    <img src={UEIcon} alt="Icon"/> 
                   </div>
                   <div className="skillName">
                     Unreal Engine
@@ -144,7 +144,7 @@ function Home() {
                 </li>
                 <li>
                   <div className="skillIcon"> 
-                    <img src={OpenGLIcon} /> 
+                    <img src={OpenGLIcon} alt="Icon"/> 
                   </div>
                   <div className="skillName">
                     OpenGL
@@ -161,7 +161,7 @@ function Home() {
               <ul className="skillList">
               <li>
                   <div className="skillIcon"> 
-                    <img src={htmlIcon} /> 
+                    <img src={htmlIcon} alt="Icon"/> 
                   </div>
                   <div className="skillName">
                     HTML
@@ -170,7 +170,7 @@ function Home() {
                 </li>
                 <li>
                   <div className="skillIcon"> 
-                    <img src={cssIcon} /> 
+                    <img src={cssIcon} alt="Icon"/> 
                   </div>
                   <div className="skillName">
                     CSS
@@ -179,7 +179,7 @@ function Home() {
                 </li>
                 <li>
                   <div className="skillIcon"> 
-                    <img src={reactjsIcon} /> 
+                    <img src={reactjsIcon} alt="Icon"/> 
                   </div>
                   <div className="skillName">
                     ReactJS
@@ -188,7 +188,7 @@ function Home() {
                 </li>
                 <li>
                   <div className="skillIcon"> 
-                    <img src={npmIcon}/> 
+                    <img src={npmIcon} alt="Icon"/> 
                   </div>
                   <div className="skillName">
                     Npm
@@ -203,8 +203,8 @@ function Home() {
             <span>
               <ul className="skillList">
                 <li>
-                  <div className="skillIcon"> 
-                    <img src={cplusplus} /> 
+                  <div className="skillIcon" > 
+                    <img src={cplusplus} alt="Icon"/> 
                   </div>
                   <div className="skillName">
                     C++
@@ -212,7 +212,7 @@ function Home() {
                 </li>
                 <li>
                   <div className="skillIcon">
-                    <img src={cSharp} /> 
+                    <img src={cSharp} alt="Icon"/> 
                   </div>
                   <div className="skillName">
                     C#
@@ -221,7 +221,7 @@ function Home() {
                   </li>
                 <li> 
                   <div className="skillIcon"> 
-                    <img src={js} /> 
+                    <img src={js} alt="Icon"/> 
                   </div>
                   <div className="skillName">
                     JavaScript

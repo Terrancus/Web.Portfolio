@@ -14,7 +14,7 @@ function Footer() {
             <a href="https://www.linkedin.com/in/terrance-ho-95a11a281" target="_blank" rel="noopener noreferrer">
               <LinkedInIcon />
             </a>
-            <EmailIcon onClick={() => window.location = 'mailto:terrance.of.h.k@gmail.com'}/>
+            <EmailIcon onClick={() => window.location = 'mailto:terrance.ho.work@gmail.com'}/>
             <a href="https://github.com/Terrancus" target="_blank" rel="noopener noreferrer">
               <GitHub  />
             </a>
