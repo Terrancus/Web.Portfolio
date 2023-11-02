@@ -15,7 +15,7 @@ function Experience() {
           className="vertical-timeline-element"
           contentStyle={{ background: '#28375e', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  #28375e' }}
-          date="2018-2021"
+          date="2020-2023"
           iconStyle={{background: "rgb(179, 218, 233)", color: "#fff"}}
           icon={<ProjIcon/>}
         >
@@ -39,7 +39,7 @@ function Experience() {
           className="vertical-timeline-element"
           contentStyle={{ background: '#28375e', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  #28375e' }}
-          date="2018-2021"
+          date="2018-2022"
           iconStyle={{background: "#e9d35b", color: "#fff"}}
           icon={<WorkIcon/>}
         >
