@@ -67,7 +67,7 @@ function Home() {
 
         <div className="prompt">
           <p>
-            A self-motivated content creator 
+            Self-motivated content creator 
           </p>
           <h4>Contact me:</h4>
           <div className="socialMedia">

@@ -11,6 +11,26 @@ function Experience() {
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
 
+      <VerticalTimelineElement 
+          className="vertical-timeline-element"
+          contentStyle={{ background: '#28375e', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  #28375e' }}
+          date="2023-2024"
+          iconStyle={{background: "rgb(255, 179, 179)", color: "#fff"}}
+          icon={<WorkIcon/>}
+        >
+          <h2 className="vertical-timeline-element-title" style={{color: 'rgb(255, 179, 179)'}}> 
+            <u>Work: Full-time Programmer</u>
+          </h2>
+          <h3>
+          Eteam Entertainment Limited 
+          </h3>
+          <ul>
+            <li>&#40;2023 - 24&#41; Programmer Programmer </li>
+          </ul>  
+
+        </VerticalTimelineElement>
+
         <VerticalTimelineElement 
           className="vertical-timeline-element"
           contentStyle={{ background: '#28375e', color: '#fff' }}
@@ -22,15 +42,11 @@ function Experience() {
           <h2 className="vertical-timeline-element-title" style={{color: 'rgb(179, 218, 233)'}}> 
             <u>Personal projects</u>
           </h2>
-          <h3>
-            Part-time tutor and facilitator
-          </h3>
           <ul>
+            <li> &#40;2023 - &#41; Fiction writing - 「施安娜的女王夢」</li>
             <li> &#40;2023 - &#41; Web dev - My personal website</li>
-            <li> &#40;2023 - &#41; Game dev - Art of Aether</li>
             <li> &#40;2023 - &#41; Conlang - RhiuBu, a constructed language</li>
             <li> &#40;2023&#41; Game dev - Roothless &#40;Unity 2D&#41;</li>
-            <li> &#40;2020 - 22&#41; 3D modeling - Blender practices</li>
             <li> &#40;2020&#41; Theater play writing - 「擂台上的畫面」</li>
           </ul>  
         </VerticalTimelineElement>
@@ -44,7 +60,7 @@ function Experience() {
           icon={<WorkIcon/>}
         >
           <h2 className="vertical-timeline-element-title" style={{color: '#f3f7d0'}}> 
-            <u>Works: Part-time school tutor and facilitator</u>
+            <u>Part-time Works: School tutor and facilitator</u>
           </h2>
           <h3>
           Buddhist Wong Wan Tin College 
