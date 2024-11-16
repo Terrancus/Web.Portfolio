@@ -88,7 +88,7 @@ function Home() {
         <div className="Summary">
           <span> 
             <p>
-              A BA fresh graduate who enjoys content creation. I have many side projects, including story writing, conlanging, and small scale game development.
+              A BA fresh graduate who enjoys content creation. In my free time I work on have many side projects, including story writing, conlanging, small scale web development and game development.
             </p>
           </span>
 
@@ -251,6 +251,12 @@ function Home() {
             <ul className="otherSkills">
               <li>Latin</li>
               <li>French</li>
+            </ul>
+
+            <h4>Entry</h4>
+            <ul className="otherSkills">
+              <li>Ancient Greek</li>
+              <li>Japanese</li>
             </ul>
 
         </ul>

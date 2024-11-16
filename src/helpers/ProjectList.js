@@ -18,6 +18,9 @@ import Web from "../assets/PortfolioWeb.png"
 import BlenderCover from "../assets/BlenderMontageCover.png"
 import Blender from "../assets/BlenderMontage.png"
 
+import SionnaCover from "../assets/sionnaSmall.png"
+import Sionna from "../assets/sionna.png"
+
 export const ProjectList = [
 
     {
@@ -68,11 +71,23 @@ export const ProjectList = [
 
     },
     {
-        name: "Play writing - 「擂台上的畫面」",
+        name: "Web dev and story writing:「施安娜的女王夢」",
+        coverImage: SionnaCover,
+        image: Sionna,
+        imageSmall: SionnaCover,
+        desc: "A fiction hosting website",
+        detail: "\n        「施安娜的女王夢」is an on-going Chinese internet fiction written by me since 2024. The story is set in an imaginary pre-gunpowder world, where a young rural village girl in a war-torn sociaty dreamed at claiming queendom with her martial prowess. This imaginary world however, is but a fiction, fantasized by someone who found no joy in the real world, and drunk himself on an imaginary purpose. His will to live depends on her epic advanture. \n\n",
+        link: "https://shibartajin.github.io/SionnasDream/",
+
+    }
+    /*
+    {
+        name: "Fiction writing - 「擂台上的畫面」",
         coverImage: ScriptCover,
         image: Script,
         imageSmall: ScriptCover,
         desc: "A cantonese short theater play",
         detail: "\n        「擂台上的畫面」is a cantonese short theater play written by me in 2020. The play is about a young boxer approaching his boxing coach to explain his reason for quitting the gym, due to his disappointment of his performance, and opened up a thought provoking conversation between fantasy and reality in the fighting ring. The story is a dialectic discourse with an analogy for the meaning of life, discussing its common disappointments, and the reason for it to be continued.\n\n        A seperate page for the full play will be added soon."
     }
+     */
 ]

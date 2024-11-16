@@ -26,9 +26,31 @@ function Experience() {
           Eteam Entertainment Limited 
           </h3>
           <ul>
-            <li>&#40;2023 - 24&#41; Programmer Programmer </li>
+            <li>Full-time Programmer </li>
           </ul>  
 
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement 
+          className="vertical-timeline-element"
+          contentStyle={{ background: '#28375e', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  #28375e' }}
+          date="2018-2023"
+          iconStyle={{background: "#3e497a", color: "#fff"}}
+          icon={<SchoolIcon/>}
+        >
+          <h2 className="vertical-timeline-element-title" style={{color: '#dbdbdb'}}> 
+            <u>Education: The Chinese University of Hong Kong</u>
+          </h2>
+          <h3>
+            BA in Philosophy<br/><br/>
+            Minor in:
+          </h3>
+          <ul>
+            <li>Computor Science</li>
+            <li>History</li>
+            <li>French</li>
+          </ul>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 
@@ -43,7 +65,7 @@ function Experience() {
             <u>Personal projects</u>
           </h2>
           <ul>
-            <li> &#40;2023 - &#41; Fiction writing - 「施安娜的女王夢」</li>
+            <li> &#40;2024 - &#41; Fiction writing - 「施安娜的女王夢」</li>
             <li> &#40;2023 - &#41; Web dev - My personal website</li>
             <li> &#40;2023 - &#41; Conlang - RhiuBu, a constructed language</li>
             <li> &#40;2023&#41; Game dev - Roothless &#40;Unity 2D&#41;</li>
@@ -79,27 +101,6 @@ function Experience() {
           </ul>
 
         </VerticalTimelineElement>
-
-        <VerticalTimelineElement 
-          className="vertical-timeline-element"
-          contentStyle={{ background: '#28375e', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  #28375e' }}
-          date="2018-2023"
-          iconStyle={{background: "#3e497a", color: "#fff"}}
-          icon={<SchoolIcon/>}
-        >
-          <h2 className="vertical-timeline-element-title" style={{color: '#dbdbdb'}}> 
-            <u>Education: The Chinese University of Hong Kong</u>
-          </h2>
-          <h3>
-            Bacholar of Art in Philosophy
-          </h3>
-          <ul>
-            <li>Major: Philosophy</li>
-            <li>Minor: Computor Science, History, French</li>
-          </ul>
-        </VerticalTimelineElement>
-
 
         <VerticalTimelineElement 
           className="vertical-timeline-element"

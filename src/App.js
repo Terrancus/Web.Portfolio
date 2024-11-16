@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProjectDisplay from './pages/ProjectDisplay';
 import ScrollToTop from "./helpers/ScrollToTop";
+import Sionna from './pages/Sionna';
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
           <Route path="/Web.Portfolio/projects" element={<Projects />} />
           <Route path="/Web.Portfolio/project/:id" element={<ProjectDisplay/> } />
           <Route path="/Web.Portfolio/experience" element={<Experience />} />
+          <Route path="/sionna" element={<Sionna />} />
+
         </Routes>
         <Footer />
       </Router>
